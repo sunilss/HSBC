@@ -1,0 +1,22 @@
+﻿Installing assembly 'D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.InstallLog
+   assemblypath = D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.exe
+Installing service CalculatorService...
+Service CalculatorService has been successfully installed.
+Creating EventLog source CalculatorService in log Application...
+Committing assembly 'D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.InstallLog
+   assemblypath = D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.exe
+Uninstalling assembly 'D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.InstallLog
+   assemblypath = D:\Training\HSBC\Day-2\WindowsServiceDeployment\HSBCServicesOnWindows.exe
+Removing EventLog source CalculatorService.
+Service CalculatorService is being removed from the system...
+Service CalculatorService was successfully removed from the system.
+Attempt to stop service CalculatorService.
