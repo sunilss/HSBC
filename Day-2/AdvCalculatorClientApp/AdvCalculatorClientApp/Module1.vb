@@ -4,15 +4,21 @@ Imports System.ServiceModel
 Module Module1
 
     Sub Main()
-        Dim client As New ServiceProxies.AdvCalculatorClient()
+        Dim client As New ServiceProxies.CalculatorClient()
+        Dim advclient As New ServiceProxies.AdvCalculatorClient()
         Dim msmqClient As New ServiceProxies.AdvOneWayCalculatorClient()
 
         Try
-            Console.WriteLine(client.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Add"}))
-            Console.WriteLine(client.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Subtract"}))
-            Console.WriteLine(client.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Multiply"}))
-            Console.WriteLine(client.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Divide"}))
-            Console.WriteLine(client.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Power"}))
+            Console.WriteLine(client.Add(100, 200))
+            Console.WriteLine(client.Subtract(100, 200))
+            Console.WriteLine(client.Multiply(100, 200))
+            Console.WriteLine(client.Divide(100, 200))
+
+            'Console.WriteLine(advclient.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Add"}))
+            'Console.WriteLine(advclient.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Subtract"}))
+            'Console.WriteLine(advclient.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Multiply"}))
+            'Console.WriteLine(advclient.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Divide"}))
+            'Console.WriteLine(advclient.Process(New MathRequest() With {.Number1 = 100, .Number2 = 200, .Operation = "Power"}))
 
             'Dim request As New MathRequest() With {.Number1 = 100, .Number2 = 200}
             'Dim result As List(Of MathResult) = client.ProcessAll(request)
@@ -29,7 +35,7 @@ Module Module1
             '    msmqClient.ProcessOneWay(New MathRequest() With {.Number1 = 100 + index, .Number2 = 200, .Operation = "Divide"})
             'Next
 
-            
+
 
 
         Catch fex As FaultException(Of OperationFailureDetail)

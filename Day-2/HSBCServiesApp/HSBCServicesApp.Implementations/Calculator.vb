@@ -7,6 +7,12 @@ Public Class Calculator
     Implements ICalculator
     Implements IAdvCalculator
     Implements IAdvOneWayCalculator
+
+    Public Sub New()
+        Console.WriteLine("A new instance of calculator is created")
+    End Sub
+
+
     <OperationBehavior()>
     Public Function Add(ByVal Number1 As Integer, ByVal Number2 As Integer) As Integer Implements Contracts.ICalculator.Add
         'Thread.Sleep(15000)
