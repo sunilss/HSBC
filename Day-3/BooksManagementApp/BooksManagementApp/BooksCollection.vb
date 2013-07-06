@@ -38,19 +38,19 @@
 
     End Function
 
-    Public Sub Sort()
-        For i = 0 To list.Count - 2
-            For j = i + 1 To list.Count - 1
-                Dim leftBook As Book = CType(list(i), Book)
-                Dim rightBook As Book = CType(list(j), Book)
-                If (leftBook.Id > rightBook.Id) Then
-                    Dim temp As Book = leftBook
-                    list(i) = list(j)
-                    list(j) = temp
-                End If
-            Next
-        Next
-    End Sub
+    'Public Sub Sort()
+    '    For i = 0 To list.Count - 2
+    '        For j = i + 1 To list.Count - 1
+    '            Dim leftBook As Book = CType(list(i), Book)
+    '            Dim rightBook As Book = CType(list(j), Book)
+    '            If (leftBook.Id > rightBook.Id) Then
+    '                Dim temp As Book = leftBook
+    '                list(i) = list(j)
+    '                list(j) = temp
+    '            End If
+    '        Next
+    '    Next
+    'End Sub
     Public Sub Sort(ByVal bookComparer As IBookComparer)
         For i = 0 To list.Count - 2
             For j = i + 1 To list.Count - 1
@@ -81,6 +81,83 @@
         Next
     End Sub
 
+    'Public Function Min() As Integer
+    '    Dim result As Integer = Integer.MaxValue
+    '    For Each listItem In list
+    '        Dim book As Book = CType(listItem, Book)
+    '        If (result > book.Id) Then
+    '            result = book.Id
+    '        End If
+    '    Next
+    '    Return result
+    'End Function
+
+    Public Function Min(ByVal integerAttributeSelector As IntegerAttributeSelectorDelegate) As Integer
+        Dim result As Integer = Integer.MaxValue
+        For Each listItem In list
+            Dim book As Book = CType(listItem, Book)
+            Dim value As Integer = integerAttributeSelector(book)
+            If (result > value) Then
+                result = value
+            End If
+        Next
+        Return result
+    End Function
+
+    Public Function Max(ByVal integerAttributeSelector As IntegerAttributeSelectorDelegate) As Integer
+        Dim result As Integer = Integer.MinValue
+        For Each listItem In list
+            Dim book As Book = CType(listItem, Book)
+            Dim value As Integer = integerAttributeSelector(book)
+            If (result < value) Then
+                result = value
+            End If
+        Next
+        Return result
+    End Function
+
+    Public Function Sum(ByVal integerAttributeSelector As IntegerAttributeSelectorDelegate) As Integer
+        Dim result As Integer = 0
+        For Each listItem In list
+            Dim book As Book = CType(listItem, Book)
+            Dim value As Integer = integerAttributeSelector(book)
+            result += value
+        Next
+        Return result
+    End Function
+
+    Public Function Average(ByVal integerAttributeSelector As IntegerAttributeSelectorDelegate) As Integer
+        Dim result As Integer = 0
+        For Each listItem In list
+            Dim book As Book = CType(listItem, Book)
+            Dim value As Integer = integerAttributeSelector(book)
+            result += value
+        Next
+        Return result / list.Count
+    End Function
+
+    Public Function Filter(ByVal filterCriteria As BookFilterCriteriaDelegate) As BooksCollection
+        Dim result As New BooksCollection
+        For Each listItem In list
+            Dim book As Book = CType(listItem, Book)
+            If (filterCriteria(book) = True) Then
+                result.Add(book)
+            End If
+        Next
+        Return result
+    End Function
+
+    Public Function Min(ByVal decimalAttributeSelector As DecimalAttributeSelectorDelegate) As Integer
+        Dim result As Decimal = Decimal.MaxValue
+        For Each listItem In list
+            Dim book As Book = CType(listItem, Book)
+            Dim value As Decimal = decimalAttributeSelector(book)
+            If (result > value) Then
+                result = value
+            End If
+        Next
+        Return result
+    End Function
 
 
     Public Function GetEnumerator() As System.Collections.IEnumerator Implements System.Collections.IEnumerable.GetEnumerator
@@ -114,8 +191,8 @@ End Class
 '    End Function
 'End Class
 
+Public Delegate Function IntegerAttributeSelectorDelegate(ByVal book As Book) As Integer
+Public Delegate Function DecimalAttributeSelectorDelegate(ByVal book As Book) As Decimal
 
-
-
-
+Public Delegate Function BookFilterCriteriaDelegate(ByVal book As Book) As Boolean
 

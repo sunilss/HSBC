@@ -7,11 +7,11 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{9D230379-05DB-445B-A436-12D6D4D20047}</ProjectGuid>
+    <ProjectGuid>{328584DE-1B24-4BCB-B664-8A7CB6C7D9E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>BooksManagementApp.Module1</StartupObject>
-    <RootNamespace>BooksManagementApp</RootNamespace>
-    <AssemblyName>BooksManagementApp</AssemblyName>
+    <StartupObject>LINQDemo.Module1</StartupObject>
+    <RootNamespace>LINQDemo</RootNamespace>
+    <AssemblyName>LINQDemo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -24,7 +24,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>BooksManagementApp.xml</DocumentationFile>
+    <DocumentationFile>LINQDemo.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -34,7 +34,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>BooksManagementApp.xml</DocumentationFile>
+    <DocumentationFile>LINQDemo.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -70,10 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.vb" />
-    <Compile Include="BookComparerByCost.vb" />
-    <Compile Include="BookComparerByStock.vb" />
-    <Compile Include="BookCompererDelegate.vb" />
-    <Compile Include="IBookComparer.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -90,7 +86,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="MyCollection.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
