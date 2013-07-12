@@ -1,0 +1,7 @@
+﻿<html><head><title>Greeting App</title></head><body>
+<form method="post" action="/Greeting/Greet">
+	<div>First Name : <input type="text" name="firstName"></div>
+	<div>Last Name : <input type="text" name="lastName"></div>
+	<input type="submit" value="Submit">
+</form>
+</body></html>
