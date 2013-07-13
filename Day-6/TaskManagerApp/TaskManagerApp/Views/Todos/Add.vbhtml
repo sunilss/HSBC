@@ -1,24 +1,16 @@
 ﻿@ModelType TaskManagerApp.Todo
+   <script type="text/javascript" language="javascript">
+       $.validator.unobtrusive.parse(document);
+</script>
 
-@Code
-    Layout = Nothing
-End Code
+@Using (Ajax.BeginForm("Add", "Todos", New AjaxOptions With {.UpdateTargetId = "divTodoList"}))
 
-<!DOCTYPE html>
-
-<html>
-<head runat="server">
-    <title>Add</title>
-</head>
-<body>
-    @Using (Html.BeginForm())
     @<div>
-        Task : @Html.TextBoxFor(Function(m) m.Name)  
+        Task : @Html.TextBoxFor(Function(m) m.Name)  @Html.ValidationMessageFor(Function (m) m.Name)  
+    </div>
+    @<div>
+        IsCompleted : @Html.CheckBoxFor(Function(m) m.IsCompleted)  @Html.ValidationMessageFor(Function (m) m.IsCompleted )  
     </div>
     @<input type="submit" name="submit" value="Save" />
         
     End Using
-    
-    
-</body>
-</html>

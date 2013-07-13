@@ -1,8 +1,9 @@
-﻿@ModelType IEnumerable(Of TaskManagerApp.Todo )
+﻿@ModelType TaskManagerApp.TodosViewModel
                                
 
 @Code
     ViewData("Title") = "Index"
+    Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 <style type="text/css">
     .completed 
@@ -12,14 +13,29 @@ End Code
         font-style : italic;
     }
 </style>
+<script type="text/javascript">
+
+    var onSuccess = function (result) {
+        // enable unobtrusive validation for the contents
+        // that was injected into the <div id="result"></div> node
+        $.validator.unobtrusive.parse($(result));
+    };
+</script>
+
 <h2>Tasks</h2>
+<i>Generated at @DateAndTime.Now.ToLongTimeString()  </i>
 <hr />
+
 @Html.ActionLink("All", "Index", New With {.Filter = "All"}) 
 @Html.ActionLink("Completed", "Index", New With {.Filter = "Completed"})
 @Html.ActionLink("Incomplete", "Index", New With {.Filter = "InComplete"})
-<ul>
-    @For Each todo In Model
-        @<li><span class="@IIf(todo.IsCompleted, "completed","")">@todo.Name </span> <a href="/Todos/Remove?Id=@todo.Id">Remove</a> @Html.ActionLink("Complete","Complete", New With {.Id = todo.Id })   </li> 
-    Next
-</ul>
-<a href="/Todos/Add">Add New</a>
+
+@Code
+    Html.RenderPartial("Add", Model.NewTodo)
+End Code
+
+<div id="divTodoList">
+@Code
+    Html.RenderPartial("List", Model.Todos)
+End Code
+</div>

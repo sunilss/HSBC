@@ -1,4 +1,6 @@
-﻿' Note: For instructions on enabling IIS6 or IIS7 classic mode, 
+﻿Imports System.Data.Entity
+
+' Note: For instructions on enabling IIS6 or IIS7 classic mode, 
 ' visit http://go.microsoft.com/?LinkId=9394802
 
 Public Class MvcApplication
@@ -25,8 +27,28 @@ Public Class MvcApplication
 
     Sub Application_Start()
         AreaRegistration.RegisterAllAreas()
-
+        Database.SetInitializer(Of MVCAppContext)(New DropCreateDatabaseIfModelChanges(Of MVCAppContext)())
         RegisterGlobalFilters(GlobalFilters.Filters)
         RegisterRoutes(RouteTable.Routes)
+        ControllerBuilder.Current.SetControllerFactory(New MyCustomControllerFactory())
+    End Sub
+End Class
+
+Public Class MyCustomControllerFactory
+    Implements IControllerFactory
+
+    Public Function CreateController(requestContext As System.Web.Routing.RequestContext, controllerName As String) As System.Web.Mvc.IController Implements System.Web.Mvc.IControllerFactory.CreateController
+        If (requestContext.RouteData.Values("controller") = "Todos") Then
+            Return New TaskManagerApp.TodosController(New MVCAppContext())
+
+        End If
+    End Function
+
+    Public Function GetControllerSessionBehavior(requestContext As System.Web.Routing.RequestContext, controllerName As String) As System.Web.SessionState.SessionStateBehavior Implements System.Web.Mvc.IControllerFactory.GetControllerSessionBehavior
+
+    End Function
+
+    Public Sub ReleaseController(controller As System.Web.Mvc.IController) Implements System.Web.Mvc.IControllerFactory.ReleaseController
+
     End Sub
 End Class
