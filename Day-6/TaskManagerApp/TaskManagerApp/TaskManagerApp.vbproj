@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E225E74E-9383-4380-ACA9-BA8CC11771B1}</ProjectGuid>
+    <ProjectGuid>{E5308DCF-4523-449F-AB98-ECE235F95EB3}</ProjectGuid>
     <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>GreetingTrueMVCApp</RootNamespace>
-    <AssemblyName>GreetingTrueMVCApp</AssemblyName>
+    <RootNamespace>TaskManagerApp</RootNamespace>
+    <AssemblyName>TaskManagerApp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
@@ -25,7 +25,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>GreetingTrueMVCApp.xml</DocumentationFile>
+    <DocumentationFile>TaskManagerApp.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -34,7 +34,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>GreetingTrueMVCApp.xml</DocumentationFile>
+    <DocumentationFile>TaskManagerApp.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -93,15 +93,11 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\DateService.vb" />
-    <Compile Include="Controllers\GreetingController.vb" />
-    <Compile Include="Controllers\HomeController.vb" />
-    <Compile Include="Domain\Greeter.vb" />
-    <Compile Include="Domain\IDateService.vb" />
+    <Compile Include="Controllers\TodosController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\GreetModel.vb" />
+    <Compile Include="Models\Todos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -164,11 +160,8 @@
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="packages.config" />
-    <Content Include="Views\Greeting\Greet.vbhtml" />
-    <Content Include="Views\Greeting\GreetInput.vbhtml" />
-    <Content Include="Views\Greeting\GoodDayView.vbhtml" />
-    <Content Include="Views\Greeting\GoodEveningView.vbhtml" />
-    <Content Include="Views\Greeting\ViewPage1.vbhtml" />
+    <Content Include="Views\Todos\Index.vbhtml" />
+    <Content Include="Views\Todos\Add.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -223,7 +216,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2528</DevelopmentServerPort>
+          <DevelopmentServerPort>1846</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

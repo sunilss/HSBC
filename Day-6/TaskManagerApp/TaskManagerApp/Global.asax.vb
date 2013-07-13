@@ -18,7 +18,7 @@ Public Class MvcApplication
         routes.MapRoute( _
             "Default", _
             "{controller}/{action}/{id}", _
-            New With {.controller = "Greeting", .action = "GreetInput", .id = UrlParameter.Optional} _
+            New With {.controller = "Todos", .action = "Index", .id = UrlParameter.Optional} _
         )
 
     End Sub

@@ -7,8 +7,8 @@
 
     End Sub
 
-    Public Function Greet(firstName As String, lastName As String) As String
-        Dim fullname = firstName + " " + lastName
+    Public Function Greet(ByVal input As GreetModel) As String
+        Dim fullname = input.FirstName + " " + input.LastName
         If (Me.dateService.GetCurrentDateTime.Hour < 18) Then
             Return "Good Day " + fullname
         Else

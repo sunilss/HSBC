@@ -27,11 +27,12 @@ End Code
         <form action="/Greeting/Greet" method="post">
         <div>
         First Name : 
-            <input type="text" name="firstName" value="@Model.FirstName" class="@IIf(Model.ErrorMessages.ContainsKey("FirstName"), "error-field", "") " />
+            @Html.TextBoxFor(Function(m) m.FirstName, New With {.class = IIf(Model.ErrorMessages.ContainsKey("FirstName"), "error-field", "")})  
         </div>
         <div>
         Last Name : 
-            <input type="text" name="lastName" value="@Model.LastName" class="@IIf(Model.ErrorMessages.ContainsKey("LastName"), "error-field", "") "/>
+            
+            @Html.TextBoxFor(Function(m) m.LastName)  
         </div>
         <input type="submit" name="submit" value="Submit" />
         </form>        

@@ -16,15 +16,16 @@
         End Sub
 
 
-        Public Function Greet(ByVal firstName As String, ByVal lastName As String) As ViewResult
+        Public Function Greet(ByVal greetModel As GreetModel) As ViewResult
 
-            Dim greetModel As New GreetModel With {.FirstName = firstName, .LastName = lastName}
-            greetModel.Validate()
-            If (greetModel.ErrorMessages.Count <> 0) Then
-                Return View("GreetInput", greetModel)
+            'Dim greetModel As New GreetModel With {.FirstName = firstName, .LastName = lastName}
+
+            GreetModel.Validate()
+            If (GreetModel.ErrorMessages.Count <> 0) Then
+                Return View("GreetInput", GreetModel)
             End If
 
-            ViewData("Message") = greeterObject.Greet(firstName, lastName)
+            ViewData("Message") = greeterObject.Greet(greetModel)
             If (dateServiceObject.GetCurrentDateTime.Hour < 18) Then
                 Return View("GoodDayView")
             Else
