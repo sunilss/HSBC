@@ -11,12 +11,14 @@ End Code
     <title>Add</title>
 </head>
 <body>
-    <form action="/Todos/AddNew" method="post">
-    
-    <div>
+    @Using (Html.BeginForm())
+    @<div>
         Task : @Html.TextBoxFor(Function(m) m.Name)  
     </div>
-    <input type="submit" name="submit" value="Save" />
-    </form>
+    @<input type="submit" name="submit" value="Save" />
+        
+    End Using
+    
+    
 </body>
 </html>

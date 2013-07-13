@@ -13,13 +13,25 @@
 
     End Sub
 
-    Public Sub remove(id As Integer)
-        For Each item In list
+    Public Sub Remove(id As Integer)
+        'For Each item In list
+        For index = list.Count - 1 To 0 Step -1
+            Dim item = CType(list(index), Todo)
             If (item.Id = id) Then
                 list.Remove(item)
             End If
         Next
     End Sub
+
+    Public Function GetById(id As Integer) As Todo
+        For Each item In list
+            If (item.Id = id) Then
+                Return item
+            End If
+
+        Next
+        Return Nothing
+    End Function
 
     Public Function GetEnumerator() As System.Collections.Generic.IEnumerator(Of Todo) Implements System.Collections.Generic.IEnumerable(Of Todo).GetEnumerator
         Return list.GetEnumerator()
@@ -30,8 +42,3 @@
     End Function
 End Class
 
-Public Class Todo
-    Public Property Id As Integer
-    Public Property Name As String
-
-End Class
