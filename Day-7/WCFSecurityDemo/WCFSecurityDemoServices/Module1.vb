@@ -1,10 +1,14 @@
 ﻿Imports System.ServiceModel
+Imports System.ServiceModel.Description
 
 Module Module1
 
     Sub Main()
         Dim host As New ServiceHost(GetType(CalculatorService))
         host.Open()
+        For Each ep As ServiceEndpoint In host.Description.Endpoints
+            Console.WriteLine("{0},{1},{2}", ep.Address.Uri, ep.Binding, ep.Contract.Name)
+        Next
         Console.WriteLine("ENTER to shutdown")
         Console.ReadLine()
         host.Close()
@@ -32,7 +36,9 @@ Public Class CalculatorService
 
     <OperationBehavior()>
     Public Function Add(number1 As Integer, number2 As Integer) As Integer Implements ICalculator.Add
+        Console.WriteLine(ServiceSecurityContext.Current.PrimaryIdentity.Name)
         Return number1 + number2
+
     End Function
 
     <OperationBehavior()>
