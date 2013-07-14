@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Sun, 10 Apr 2011 12:06:57 IST</dateModified>
+  </head>
+  <body>
+    <outline text="Default" rssowl:isSet="true" rssowl:id="98">
+      <outline text="Personal" rssowl:isSet="false" rssowl:id="99">
+        <outline text="TBR Today" rssowl:isSet="false" rssowl:id="27510" />
+        <outline text="DDD" rssowl:isSet="false" rssowl:id="100">
+          <outline text="Udi Dahan - The Software Simplist" xmlUrl="http://feeds.feedburner.com/UdiDahan-TheSoftwareSimplist" rssowl:id="101" />
+          <outline text="InfoQ Personalized Feed for Magesh K" xmlUrl="http://www.infoq.com/rss/rss.action?token=cSCahQWLTSoWIi9uB3reHaYHPEmaaXBT" rssowl:id="102" />
+          <outline text="Rinat Abdullin on Efficient Software Development" xmlUrl="http://feeds.abdullin.com/RinatAbdullin" rssowl:id="82525" />
+        </outline>
+        <outline text="Javascript" rssowl:isSet="false" rssowl:id="103">
+          <outline text="http://www.klauskomenda.com/feed/" xmlUrl="http://www.klauskomenda.com/feed" rssowl:id="104" />
+          <outline text="NCZOnline" xmlUrl="http://feeds.feedburner.com/nczonline" rssowl:id="47813" />
+        </outline>
+        <outline text="Learning" rssowl:isSet="false" rssowl:id="106">
+          <outline text="The NHibernate FAQ" xmlUrl="http://blogs.hibernatingrhinos.com/nhibernate/Rss.aspx" rssowl:id="107" />
+          <outline text="Rhino Security" xmlUrl="http://ayende.com/Blog/category/548.aspx/rss" rssowl:id="108" />
+          <outline text="Dimecasts.Net -- Inform &amp; Educate in ~10 minutes or less" xmlUrl="http://feeds.feedburner.com/Dimecastsnet--InformAndEducateIn10MinutesOrLess" rssowl:id="27351" />
+          <outline text="Programming Without Ifs" xmlUrl="http://programmingwithoutifs.blogspot.com/feeds/posts/default" rssowl:id="65452" />
+          <outline text="JamesShore - Lets play TDD" xmlUrl="http://jamesshore.com/index.rss" rssowl:id="67594" />
+          <outline text="Reed Copsey, Jr." xmlUrl="http://feeds.feedburner.com/ReedCopsey" rssowl:id="81617" />
+          <outline text="Vimeo / pairwith.us' uploaded videos" xmlUrl="http://vimeo.com/user1477180/videos/rss" rssowl:id="84393" />
+          <outline text="Naveen's Blog" xmlUrl="http://feeds.feedburner.com/naveensrinivasan/rUMM" rssowl:id="85445" />
+          <outline text="Yahoo! User Interface Blog (YUIBlog) » YUI Theater" xmlUrl="http://feeds.yuiblog.com/yuiblog/yui-theater" rssowl:id="86469" />
+          <outline text="Vimeo / Øredev's uploaded videos" xmlUrl="http://vimeo.com/user2649908/videos/rss" rssowl:id="89749" />
+          <outline text="Tekpub - Microsoft Channel" xmlUrl="https://secure.tekpub.com/channels/microsoft/rss" rssowl:id="98252" />
+          <outline text=".NET Software Development Videos &amp; Tutorial Directory" xmlUrl="http://www.dotnet-tv.com/feed" rssowl:id="129588" />
+          <outline text="Blog - Stack Overflow" xmlUrl="http://blog.stackoverflow.com/feed" rssowl:id="132560" />
+        </outline>
+        <outline text="Microsoft" rssowl:isSet="false" rssowl:id="109">
+          <outline text="ASP.NET Videos" xmlUrl="http://www.asp.net/rss/videos" rssowl:id="49757" />
+          <outline text="ASP.NET Tutorials" xmlUrl="http://www.asp.net/rss/tutorials" rssowl:id="49809" />
+          <outline text="MSDN Magazine: RSS Feed" xmlUrl="http://msdn.microsoft.com/magazine/rss/default.aspx?z=z&amp;iss=1" rssowl:id="110" />
+          <outline text="MSDN: U.S. Local Highlights" xmlUrl="http://www.microsoft.com/feeds/msdn/en-us/rss.xml" rssowl:id="111" />
+          <outline text="Free Microsoft E-Learning resources" xmlUrl="http://learning.microsoft.com/rss/en-US/free?brand=Learning" rssowl:id="112" />
+          <outline text="Articles, Opinions &amp;amp; Lab - MIX Online" xmlUrl="http://www.visitmix.com/Feeds/RSS" rssowl:id="113" />
+          <outline text="Channel 9" xmlUrl="http://channel9.msdn.com/feeds/rss/default.aspx" rssowl:id="114" />
+          <outline text="Nikhil Kothari's Weblog" xmlUrl="http://www.nikhilk.net/Rss.ashx" rssowl:id="115" />
+          <outline text="Lab - MIX Online" xmlUrl="http://visitmix.com/Lab/RSS" rssowl:id="116" />
+          <outline text="ADO.NET team blog" xmlUrl="http://blogs.msdn.com/b/adonet/rss.aspx" rssowl:id="126242" />
+          <outline text="MSDN (.NET)" rssowl:isSet="false" rssowl:id="120">
+            <outline text="MSDN: .NET Framework Headlines" xmlUrl="http://www.microsoft.com/feeds/msdn/en-us/netframework/netframework_en_us.xml" rssowl:id="121" />
+            <outline text="MSDN Screencasts" xmlUrl="http://www.microsoft.com/uk/msdn/screencasts/rss.aspx?t=all" rssowl:id="122" />
+          </outline>
+          <outline text="A Guide to Parallel Programming" xmlUrl="http://parallelpatterns.codeplex.com/Project/ProjectRss.aspx" rssowl:id="27383" />
+          <outline text="The Region: News and Views of Microsoft Regional Directors" xmlUrl="http://www.theregion.com/ShowRss.aspx" rssowl:id="48247" />
+          <outline text="Silverlight" rssowl:isSet="false" rssowl:id="27416">
+            <outline text="Silverlight TV" xmlUrl="http://channel9.msdn.com/shows/silverlighttv/rss/default.aspx" rssowl:id="27514" />
+            <outline text="SilverlightShow: Silverlight Community" xmlUrl="http://feeds2.feedburner.com/silverlightshow" rssowl:id="27418" />
+            <outline text="Delicious/projectrosetta" xmlUrl="http://feeds.delicious.com/v2/rss/projectrosetta?count=15" rssowl:id="31711" />
+            <outline text="Silverlight Scratchpad" xmlUrl="http://feeds.feedburner.com/SilverlightScratchpad" rssowl:id="35339" />
+            <outline text="Silverlight Web Services Team" xmlUrl="http://blogs.msdn.com/b/silverlightws/rss.aspx" rssowl:id="49620" />
+            <outline text="Manuel Felício's Weblog" xmlUrl="http://mfelicio.wordpress.com/feed" rssowl:id="57163" />
+            <outline text="Jesse Liberty - Silverlight Geek" xmlUrl="http://feeds.feedburner.com/JesseLiberty-SilverlightGeek" rssowl:id="150" />
+            <outline text="Silverlight Cream" xmlUrl="http://geekswithblogs.net/wynapsetechnicalmusings/Rss.aspx" rssowl:id="46594" />
+          </outline>
+          <outline text="J.D. Meier's Blog" xmlUrl="http://feeds.feedburner.com/jmeier" rssowl:id="68612" />
+          <outline text="WPF" rssowl:isSet="false" rssowl:id="78102">
+            <outline text="Pete Brown's Blog (POKE 53280,0)" xmlUrl="http://feeds.feedburner.com/PeteBrown" rssowl:id="78104" />
+          </outline>
+          <outline text="CodePlex" xmlUrl="http://www.codeplex.com/site/feeds/rss" rssowl:id="90801" />
+          <outline text="Script Junkie – Essential Cross-Browser Code, Information and Discussion" xmlUrl="http://services.social.microsoft.com/feeds/feed/scriptjunkieLearn" rssowl:id="139285" />
+          <outline text="Skinner's Blog" xmlUrl="http://blogs.msdn.com/b/camerons/atom.aspx" rssowl:id="156332" />
+        </outline>
+        <outline text="Programming" rssowl:isSet="false" rssowl:id="123">
+          <outline text="Los Techies" xmlUrl="http://feeds.feedburner.com/LosTechies" rssowl:id="124" />
+          <outline text="Devlicio.us" xmlUrl="http://feeds2.feedburner.com/devlicious" rssowl:id="185" />
+          <outline text="CodeBetter.Com - Stuff you need to Code Better!" xmlUrl="http://feeds2.feedburner.com/CodeBetter" rssowl:id="30753" />
+          <outline text="Elegant Code" xmlUrl="http://feeds2.feedburner.com/ElegantCode" rssowl:id="92712" />
+          <outline text="The Code Project Latest Articles" xmlUrl="http://www.codeproject.com/webservices/articlerss.aspx?cat=1" rssowl:id="94385" />
+          <outline text="ASP.NET MVC" rssowl:isSet="false" rssowl:id="125">
+            <outline text="Stephen Walther on ASP.NET MVC" xmlUrl="http://feeds.feedburner.com/StephenWalther" rssowl:id="126" />
+            <outline text="Scott Hanselman's Computer Zen" xmlUrl="http://feeds.feedburner.com/ScottHanselman" rssowl:id="127" />
+            <outline text="Maarten Balliauw {blog}" xmlUrl="http://feeds2.feedburner.com/maartenballiauw" rssowl:id="128" />
+            <outline text="Weak Reference" xmlUrl="http://feeds.feedburner.com/tunatoksoz" rssowl:id="129" />
+            <outline text="Craig Stuntz's Weblog" xmlUrl="http://blogs.teamb.com/craigstuntz/feed" rssowl:id="130" />
+            <outline text="Jimmy Bogard" xmlUrl="http://feeds.feedburner.com/GrabBagOfT" rssowl:id="131" />
+            <outline text="Dan Wahlin&amp;amp;#39;s WebLog" xmlUrl="http://feeds2.feedburner.com/dwahlin" rssowl:id="132" />
+            <outline text="ScottGu's Blog" xmlUrl="http://weblogs.asp.net/scottgu/rss.aspx" rssowl:id="133" />
+            <outline text="CodeClimber" xmlUrl="http://feeds2.feedburner.com/codeclimber" rssowl:id="134" />
+            <outline text="Kazi Manzur Rashid's Blog" xmlUrl="http://feeds2.feedburner.com/kazimanzurrashid" rssowl:id="135" />
+            <outline text="LA.NET [EN] : MVC" xmlUrl="http://msmvps.com/blogs/luisabreu/rss.aspx?Tags=MVC&amp;AndTags=1" rssowl:id="136" />
+            <outline text="Steve Sanderson's blog" xmlUrl="http://feeds.codeville.net/SteveCodeville" rssowl:id="137" />
+            <outline text="Ludwig's Blog" xmlUrl="http://ludwigstuyck.wordpress.com/feed" rssowl:id="138" />
+            <outline text="Dunatis" xmlUrl="http://www.dunatis.be/syndication.axd" rssowl:id="39265" />
+            <outline text="you've been HAACKED" xmlUrl="http://feeds.haacked.com/haacked" rssowl:id="139" />
+            <outline text="CodeThinked" xmlUrl="http://feeds.codethinked.com/codethinked" rssowl:id="140" />
+            <outline text="Brad Wilson" xmlUrl="http://feeds.feedburner.com/BradWilson" rssowl:id="30791" />
+            <outline text="Jeffrey Palermo (.com)" xmlUrl="http://feeds.jeffreypalermo.com/jeffreypalermo" rssowl:id="30792" />
+            <outline text="Deran Schilling, Learner" xmlUrl="http://feeds.feedburner.com/derans" rssowl:id="30793" />
+            <outline text="weirdlover » Asp.Net MVC Tutorials (eng)" xmlUrl="http://feeds.feedburner.com/weirdlover/aoiX" rssowl:id="47130" />
+          </outline>
+          <outline text="Learning" rssowl:isSet="false" rssowl:id="141">
+            <outline text="Tim Ross - .NET Developer" xmlUrl="http://timross.wordpress.com/feed" rssowl:id="142" />
+            <outline text="Richard Dingwall [DDD]" xmlUrl="http://feeds.feedburner.com/RichardDingwall" rssowl:id="143" />
+            <outline text="Angle Bracket Percent" xmlUrl="http://blogs.msdn.com/davidebb/rss.xml" rssowl:id="144" />
+            <outline text="Fabulous Adventures In Coding" xmlUrl="http://blogs.msdn.com/ericlippert/rss.xml" rssowl:id="145" />
+            <outline text="dnrTV" xmlUrl="http://feeds.feedburner.com/DnrtvWmv" rssowl:id="146" />
+            <outline text="Mike Taulty's Blog" xmlUrl="http://feeds.feedburner.com/mtaulty" rssowl:id="148" />
+            <outline text="NHibernate blog" xmlUrl="http://feeds.feedburner.com/NHibernateBlog" rssowl:id="30794" />
+            <outline text="Unhandled Exceptions" xmlUrl="http://feeds.feedburner.com/unhandled-exceptions" rssowl:id="30795" />
+            <outline text="C#er : IMage" xmlUrl="http://feeds2.feedburner.com/CSharperImage" rssowl:id="47670" />
+            <outline text="Silverlight &amp; WCF RIA Services" xmlUrl="http://bachelorthesis.zdechovan.com/feed" rssowl:id="30802" />
+            <outline text="Jon Kruger's Blog" xmlUrl="http://feeds.feedburner.com/JonKrugersBlog" rssowl:id="25694" />
+            <outline text="James Kovacs' Weblog" xmlUrl="http://jameskovacs.com/feed" rssowl:id="39067" />
+            <outline text="DotNetDude.com" xmlUrl="http://feeds.feedburner.com/miguelcastro" rssowl:id="56802" />
+            <outline text="Jon Skeet: Coding Blog" xmlUrl="http://feeds.feedburner.com/JonSkeetCodingBlog" rssowl:id="61532" />
+            <outline text="High Scalability" xmlUrl="http://feeds.feedburner.com/HighScalability" rssowl:id="90524" />
+            <outline text="Cre8ive Thought - Mark Nijhof" xmlUrl="http://feeds.feedburner.com/Fohjin" rssowl:id="90963" />
+            <outline text="Lab49 Blog" xmlUrl="http://blog.lab49.com/feed" rssowl:id="97033" />
+            <outline text=".NET Curry: Recent Articles" xmlUrl="http://feeds.feedburner.com/netCurryRecentArticles" rssowl:id="130069" />
+            <outline text="jQuery for Designers" xmlUrl="http://feeds.feedburner.com/JqueryForDesigners" rssowl:id="134224" />
+            <outline text="Jon Galloway" xmlUrl="http://feeds.feedburner.com/jongalloway" rssowl:id="137199" />
+          </outline>
+          <outline text="Training" rssowl:isSet="false" rssowl:id="151">
+            <outline text="Jean-Paul S. Boodhoo's Blog" xmlUrl="http://feeds.feedburner.com/JPBoodhoo" rssowl:id="152" />
+          </outline>
+          <outline text="WPF" rssowl:isSet="false" rssowl:id="159">
+            <outline text=".NET &amp;amp; Funky Fresh : Caliburn" xmlUrl="http://devlicio.us/blogs/rob_eisenberg/rss.aspx?Tags=Caliburn&amp;AndTags=1" rssowl:id="160" />
+            <outline text="Karl On WPF - .Net" xmlUrl="http://karlshifflett.wordpress.com/feed" rssowl:id="34920" />
+          </outline>
+          <outline text="TDD" rssowl:isSet="false" rssowl:id="30799">
+            <outline text="Brian Button - One Agile Coder" xmlUrl="http://feeds.feedburner.com/BrianButton-OneAgileCoder" rssowl:id="30800" />
+          </outline>
+          <outline text="DDD" rssowl:isSet="false" rssowl:id="33827">
+            <outline text="Blog RSS Feed" xmlUrl="http://thinkddd.com/rss" rssowl:id="33829" />
+          </outline>
+          <outline text="Agile Software Community of India News" xmlUrl="http://www.agileindia.org/feeds/newsrss.xml" rssowl:id="41152" />
+          <outline text="HTML5CSS3" rssowl:isSet="false" rssowl:id="60955">
+            <outline text="HTML5 Doctor" xmlUrl="http://feeds2.feedburner.com/html5doctor" rssowl:id="60957" />
+            <outline text="HTML5Rocks - Tutorials" xmlUrl="http://www.html5rocks.com/tutorials/index.xml" rssowl:id="62231" />
+          </outline>
+          <outline text="JQuery" rssowl:isSet="false" rssowl:id="27539">
+            <outline text="Learning JQuery" xmlUrl="http://feeds.feedburner.com/LearningJquery" rssowl:id="27540" />
+            <outline text="MarcGrabanski.com - Jack of All Trades Web Development" xmlUrl="http://feeds.feedburner.com/allTrades" rssowl:id="42310" />
+            <outline text="Enterprise jQuery" xmlUrl="http://feeds.feedburner.com/EnterpriseJquery" rssowl:id="73581" />
+          </outline>
+        </outline>
+        <outline text="Google" rssowl:isSet="false" rssowl:id="110673">
+          <outline text="The Official Google Blog" xmlUrl="http://googleblog.blogspot.com/atom.xml" rssowl:id="27536" />
+          <outline text="Google Testing Blog" xmlUrl="http://googletesting.blogspot.com/atom.xml" rssowl:id="110675" />
+          <outline text="Google Chrome Blog" xmlUrl="http://chrome.blogspot.com/atom.xml" rssowl:id="137115" />
+        </outline>
+        <outline text="Technology" rssowl:isSet="false" rssowl:id="27533">
+          <outline text="Ajaxian » Front Page " xmlUrl="http://ajaxian.com/index.xml" rssowl:id="27535" />
+          <outline text="developer.* - The Independent Magazine for Software Professionals" xmlUrl="http://www.developerdotstar.com/mag/rss/devdotstar.xml" rssowl:id="27537" />
+          <outline text="Dr.Dobb's DDJ_Windows/.NET Articles" xmlUrl="http://www.drdobbs.com/rss/windowsNet.xml" rssowl:id="27538" />
+          <outline text="JAPF - WPF" xmlUrl="http://www.japf.fr/feed" rssowl:id="77448" />
+          <outline text="A List Apart" xmlUrl="http://www.alistapart.com/site/rss" rssowl:id="90740" />
+        </outline>
+        <outline text="Interesting &amp; Useful" rssowl:isSet="false" rssowl:id="171">
+          <outline text="Miško Hevery" xmlUrl="http://misko.hevery.com/feed" rssowl:id="172" />
+          <outline text="Ayende @ Rahien" xmlUrl="http://feeds.feedburner.com/AyendeRahien" rssowl:id="173" />
+          <outline text="The Inquisitive Coder - Davy Brion's Blog" xmlUrl="http://feeds.feedburner.com/davybrion" rssowl:id="174" />
+          <outline text="Aza's Thoughts" xmlUrl="http://www.azarask.in/blog/feed" rssowl:id="175" />
+          <outline text="www.goeleven.com" xmlUrl="http://feeds.feedburner.com/goeleven/latest" rssowl:id="176" />
+          <outline text="The Code Bucket" xmlUrl="http://feeds.feedburner.com/TheCodeBucket" rssowl:id="177" />
+          <outline text="Bart blogs" xmlUrl="http://feeds.feedburner.com/blogspot/bartreyserhove" rssowl:id="6413" />
+          <outline text="The Wayward WebLog" xmlUrl="http://blogs.msdn.com/mattwar/rss.xml" rssowl:id="22588" />
+          <outline text="the 'bee log" xmlUrl="http://feeds.feedburner.com/thebeelog" rssowl:id="27551" />
+          <outline text="The Limber Lambda" xmlUrl="http://thelimberlambda.com/feed" rssowl:id="27550" />
+          <outline text="Object Mentor Blog" xmlUrl="http://blog.objectmentor.com/xml/rss20/feed.xml" rssowl:id="27549" />
+          <outline text="Blog by John Nunemaker" xmlUrl="http://feeds.feedburner.com/railstips" rssowl:id="27548" />
+          <outline text="NetObjectives blogs" xmlUrl="http://feeds.feedburner.com/NetObjectivesThoughts" rssowl:id="27547" />
+          <outline text="ploeh blog" xmlUrl="http://blog.ploeh.dk/SyndicationService.asmx/GetRss" rssowl:id="27546" />
+          <outline text="Herding Code" xmlUrl="http://feeds.feedburner.com/HerdingCode" rssowl:id="27545" />
+          <outline text="Soft stuff @ bjarte.com" xmlUrl="http://feeds.feedburner.com/BjarteCom" rssowl:id="27544" />
+          <outline text="Brain.Save(): blog" xmlUrl="http://feeds.feedburner.com/BrainSave" rssowl:id="27555" />
+          <outline text="Think Before Coding" xmlUrl="http://feeds.thinkbeforecoding.com/ThinkBeforeCoding" rssowl:id="27553" />
+          <outline text="Alistair.Cockburn.us Rss Feed" xmlUrl="feed://alistair.cockburn.us/articles-blog/new/rss" rssowl:id="31845" />
+          <outline text="Software People Inspiring" xmlUrl="http://www.parlezuml.com/blog/rss.php?ver=2" rssowl:id="42770" />
+          <outline text="Karl Seguin's Blog" xmlUrl="http://feeds.feedburner.com/KarlSeguinsBlog" rssowl:id="57723" />
+          <outline text="This Developer's Life" xmlUrl="http://feeds.feedburner.com/thisdeveloperslife" rssowl:id="61841" />
+          <outline text="Steve Smith's Blog" xmlUrl="http://feeds.feedburner.com/StevenSmith" rssowl:id="65102" />
+          <outline text="OverrideThis.com" xmlUrl="http://feeds.feedburner.com/OverrideThisCom" rssowl:id="66600" />
+          <outline text="Inversion of Control Freak" xmlUrl="http://feeds.feedburner.com/joliver" rssowl:id="69629" />
+          <outline text="Mahendra Mavani's # Corner" xmlUrl="http://feeds.feedburner.com/mahendramavani" rssowl:id="77398" />
+          <outline text="Faculty of The Mind" xmlUrl="http://iridescence.no/syndication.axd" rssowl:id="78163" />
+          <outline text="DOT NET TRICKS" xmlUrl="http://feeds.feedburner.com/~r/abhisheksur/WTgI/~6/1" rssowl:id="85973" />
+          <outline text="Catfish in the Memepool" xmlUrl="http://laputan.org/catfish/atom.xml" rssowl:id="138894" />
+        </outline>
+        <outline text="Others" rssowl:isSet="false" rssowl:id="178">
+          <outline text="Richard Dingwall's" rssowl:isSet="false" rssowl:id="179">
+            <outline text="Programming" rssowl:isSet="false" rssowl:id="181">
+              <outline text="CodeBetter.Com - Stuff you need to Code Better!" xmlUrl="http://feeds2.feedburner.com/CodeBetter" rssowl:id="182" />
+              <outline text="Coding Horror" xmlUrl="http://feeds.feedburner.com/codinghorror" rssowl:id="183" />
+              <outline text="Coding Instinct" xmlUrl="http://feeds.feedburner.com/codinginstinct" rssowl:id="184" />
+              <outline text="DotNetKicks.com" xmlUrl="http://feeds.feedburner.com/dotnetkicks" rssowl:id="186" />
+              <outline text="Hendry Luk -- Sheep in Fence" xmlUrl="http://hendryluk.wordpress.com/feed" rssowl:id="187" />
+              <outline text="HunabKu" xmlUrl="http://fabiomaulo.blogspot.com/feeds/posts/default" rssowl:id="188" />
+              <outline text="James Newton-King" xmlUrl="http://feeds.newtonking.com/jamesnewtonking" rssowl:id="189" />
+              <outline text="Jon Kruger's Blog" xmlUrl="http://jonkruger.com/blog/feed" rssowl:id="191" />
+              <outline text="jp.hamilton" xmlUrl="http://feeds2.feedburner.com/JpHamilton" rssowl:id="192" />
+              <outline text="mattberther.com" xmlUrl="http://www.mattberther.com/feed" rssowl:id="194" />
+              <outline text="Did it with .NET" xmlUrl="http://feeds.feedburner.com/DidItWithDotNet" rssowl:id="27566" />
+              <outline text="{codesqueeze}" xmlUrl="http://feeds.feedburner.com/codesqueeze/blog" rssowl:id="27565" />
+              <outline text="xProgramming.com" xmlUrl="http://xprogramming.com/feed/atom" rssowl:id="27564" />
+              <outline text="Thoughts From Eric » Tech" xmlUrl="http://meyerweb.com/eric/thoughts/category/tech/rss2/full" rssowl:id="27563" />
+              <outline text="Scott Muc" xmlUrl="http://scottmuc.com/feed" rssowl:id="27562" />
+              <outline text="Random Code" xmlUrl="http://randomcode.net.nz/feed" rssowl:id="27561" />
+              <outline text="Paul Graham: Essays" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" rssowl:id="27560" />
+              <outline text="Joel on Software" xmlUrl="http://www.joelonsoftware.com/rss.xml" rssowl:id="27559" />
+              <outline text="Steve Strong's Blog" xmlUrl="http://blogs.imeta.co.uk/sstrong/Rss.aspx" rssowl:id="42830" />
+              <outline text="ThousandtyOne! - .NET, Life and Logical Thoughts By Rajiv Popat" xmlUrl="http://feeds.feedburner.com/thousandtyone" rssowl:id="64114" />
+              <outline text="4GuysFromRolla.com Headlines" xmlUrl="http://aspnet.4guysfromrolla.com/rss/rss.aspx" rssowl:id="82191" />
+            </outline>
+          </outline>
+          <outline text="The Ebooks Nest  : Free Ebooks Download" xmlUrl="http://feeds.feedburner.com/technomac" rssowl:id="93711" />
+          <outline text="Wow! eBook - Great ebook, great site!" xmlUrl="http://feeds.feedburner.com/wowebook" rssowl:id="49086" />
+          <outline text="ebookshare" xmlUrl="http://www.ebookshare.net/feed" rssowl:id="90600" />
+        </outline>
+        <outline text="Aggregators" rssowl:isSet="false" rssowl:id="27567">
+          <outline text="Alvin Ashcraft's Morning Dew" xmlUrl="http://feeds2.feedburner.com/alvinashcraft" rssowl:id="27568" />
+          <outline text="The Morning Brew" xmlUrl="http://feeds.feedburner.com/ReflectivePerspective" rssowl:id="27569" />
+        </outline>
+        <outline text="Community" rssowl:isSet="false" rssowl:id="43113">
+          <outline text="Europe Virtual ALT.NET" xmlUrl="http://europevan.blogspot.com/feeds/posts/default" rssowl:id="87216" />
+          <outline text="Virtual ALT.NET" xmlUrl="http://feeds2.feedburner.com/VirtualAltnet" rssowl:id="43114" />
+          <outline text="Events organized by Greg Young" xmlUrl="http://www.eventbrite.com/rss/organizer_list_events/551499662" rssowl:id="56625" />
+          <outline text="Events organized by Linked .Net Users Group" xmlUrl="http://www.eventbrite.com/atom/organizer_list_events/611314455" rssowl:id="67243" />
+        </outline>
+        <outline text="Architecture" rssowl:isSet="false" rssowl:id="53467">
+          <outline text="The ArchitectÂ´s Napkin" xmlUrl="http://geekswithblogs.net/theArchitectsNapkin/Rss.aspx" rssowl:id="53469" />
+        </outline>
+        <outline text="Security" rssowl:isSet="false" rssowl:id="81407">
+          <outline text="Troy Hunt" xmlUrl="http://www.troyhunt.com/feeds/posts/default" rssowl:id="81409" />
+        </outline>
+        <outline text="Funny" rssowl:isSet="false" rssowl:id="91289">
+          <outline text="Geek And Poke" xmlUrl="http://feeds.feedburner.com/GeekAndPoke" rssowl:id="91291" />
+        </outline>
+        <outline text="Demo" rssowl:isSet="false" rssowl:id="70459" />
+      </outline>
+    </outline>
+  </body>
+</opml>
+
