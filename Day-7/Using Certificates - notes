@@ -1,0 +1,27 @@
+Creating Certificates
+makecert -sr LocalMachine -ss My -n CN=HTTPS-Server -sky exchange -sk HTTPS-Key
+
+Granting Port permissions
+httpcfg set ssl -i 0.0.0.0:8000 -h /certificate thumb print/
+
+
+Client code to relax certificate verification
+
+Public Class PermissiveCertificatePolicy
+    Private subjectName As String
+    Private Shared CurrentPolicy As PermissiveCertificatePolicy
+
+    Public Sub New(subjectName As String)
+        Me.subjectName = subjectName
+        'AddHandler ServicePointManager.ServerCertificateValidationCallback, AddressOf RemoteCertValidate
+        ServicePointManager.ServerCertificateValidationCallback = AddressOf RemoteCertValidate
+    End Sub
+
+    Public Shared Sub Enact(subjectName As String)
+        CurrentPolicy = New PermissiveCertificatePolicy(subjectName)
+    End Sub
+
+    Public Function RemoteCertValidate(sender As Object, cert As X509Certificate, chain As X509Chain, errors As System.Net.Security.SslPolicyErrors) As Boolean
+        Return cert.Subject = subjectName
+    End Function
+End Class
